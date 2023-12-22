@@ -1,0 +1,24 @@
+#gameContainer {
+    text-align: center;
+}
+
+#gameBoard {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.cell.alive {
+    background-color: black;
+}
+
+#controls {
+    margin-bottom: 10px;
+}

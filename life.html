@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра "Жизнь"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gameContainer">
+    <div id="controls">
+        <button id="startButton">Старт</button>
+        <button id="randomButton">Случайное поколение</button>
+        <input type="number" id="widthInput" placeholder="Ширина">
+        <input type="number" id="heightInput" placeholder="Высота">
+    </div>
+    <div id="gameBoard"></div>
+    <div id="generationTime">Время генерации: <span id="timeDisplay">0</span> мс</div>
+    <canvas id="gameCanvas"></canvas>
+</div>
+<script src="life.js"></script>
+</body>
+</html>
